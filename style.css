@@ -1,0 +1,244 @@
+
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand:hover{
+    background: -webkit-linear-gradient(180deg, #6A21FF, #F3540E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(180deg, #6A21FF, #F3540E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 30%;
+    padding-top: 5%;
+    font-size: 34px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(360deg, #6A21FF, #F3540E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 50%;
+    font-size: 34px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    font-family: 'Quicksand', sans-serif;
+    background: transparent;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    margin-top: 5%;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.projectsButton{
+    color: black;
+    border: 2px solid black;
+}
+.projectsButton:hover{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    background-color: #060606;
+    border: none;
+    
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15%;
+    padding-left: 0;
+}
+.navbar-header{
+    float: none;
+}
+#headerVideo{
+  width: 100%;
+}
+#fold{
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+.headerText{
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 15%;
+    padding-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    border-left: solid white;
+}
+#aboutMe{
+    padding-top: 5%;
+    background-color: #060606;
+    padding-bottom: 5%;
+    
+}
+.aboutMeLeft{
+    padding-left: 15%;
+    
+}
+.aboutLine{
+    color: white;
+    background-color: white;
+    height: 1px;
+}
+.imgSelf{
+    width: 50%;
+    float: right;
+    margin-right: 20%;
+}
+.aboutMeRight{
+    padding-right: 15%;
+    color: white;
+}
+.downButton{
+    padding: 0;
+    width: 200px !important;
+    height: 40px !important;
+    float: left;
+}
+.scrollBtn{
+    float:left;
+}
+#projects{
+    margin-top: 5%;
+    color: black;
+}
+.projectsLeft{
+    padding-left: 15%;
+}
+.projectsRight{
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+.projectsLine{
+    color: black;
+    background-color: black;
+    height: 2px;
+}
+.thumbnailProject:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=30);
+}
+.seemoreBtn{
+    height: 100px !important;
+}
+.row{
+    margin-right: 0;
+}
+#footer{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #060606;
+}
+.footer-text{
+    padding-left: 3%;
+    left: 15%;
+    border-left: solid white;
+}
+.socialIcons{
+    text-align: center;
+    width: 5%;
+}
+.iconButtons{
+    text-align: center;
+}
+.copyright{
+    padding-top: 20px;
+    text-align: center;
+}
+.container{
+    text-align: center;  
+    width: 300px;  
+    height: 200px;  
+}
+.projectRows{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%
+}
+.img-responsive{
+    padding-bottom: 3%;
+}
+.projectPageTxt{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.projectPageH3{
+    text-align: center;
+    margin-right: 0;
+    color: white;
+}
+.projectspageLine{
+    color: black;
+    background-color: black;
+    height: 2px;
+    margin-left: 50%;
+}
+.projectsP{
+    margin-right: 50%;
+    margin-bottom: 5%;
+    border-left: solid black;
+    padding-left: 3%;
+}
+.projectSubPage{
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+.subpageH3{
+    margin-right: 0;
+    border-left: solid white;
+    padding-left: 20px;
+}
+.subpageBG{
+    background: #060606;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.subpageWhiteP{
+    color: white;
+    margin-bottom: 50px;
+}
+.subpageContent{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+.projectsBanner{
+    background-image: url(images/projectsbanner.png);
+    margin-top: 50px;
+}
+h6{
+    font-size: 34px;
+        padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
